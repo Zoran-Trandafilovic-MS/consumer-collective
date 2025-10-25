@@ -1,0 +1,70 @@
+.tertiary {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.tertiary .base-button-tertiary {
+  border-radius: 20px;
+  height: 24px;
+  position: relative;
+}
+
+.tertiary .text-icon {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.tertiary .button-text {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  padding: 4px 0px 0px;
+  position: relative;
+}
+
+.tertiary .text-wrapper {
+  color: var(--gray-07, #141413);
+  font-family: var(--action-default-font-family);
+  font-size: var(--action-default-font-size);
+  font-style: var(--action-default-font-style);
+  font-weight: var(--action-default-font-weight);
+  letter-spacing: var(--action-default-letter-spacing);
+  line-height: var(--action-default-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tertiary .hover-underline {
+  height: 1px;
+  margin-right: -656.00px;
+  margin-top: -5915.00px;
+  position: relative;
+  width: 1px;
+}
+
+.tertiary .utility-arrow-right {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.tertiary .default {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+}
+
+.tertiary .hover {
+  width: 133px;
+}

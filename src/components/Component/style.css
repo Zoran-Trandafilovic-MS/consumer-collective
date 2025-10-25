@@ -1,0 +1,46 @@
+.component {
+  height: 50px;
+  position: relative;
+  top: 5px;
+  width: 50px;
+}
+
+.component .ellipse {
+  background-color: var(--accent-colorsorange-400);
+  border-radius: 6.25px;
+  height: 12px;
+  left: 19px;
+  position: absolute;
+  top: 19px;
+  width: 12px;
+}
+
+.component .div {
+  position: absolute;
+}
+
+.component.frame-5 {
+  left: 5px;
+}
+
+.component.frame-6 {
+  left: 68px;
+}
+
+.component.frame-5 .div {
+  background-color: var(--accent-colorsorange-400);
+  border-radius: 6.25px;
+  height: 12px;
+  left: 19px;
+  top: 19px;
+  width: 12px;
+}
+
+.component.frame-6 .div {
+  background-color: #ff671b26;
+  border-radius: 15.62px;
+  height: 31px;
+  left: 10px;
+  top: 10px;
+  width: 31px;
+}

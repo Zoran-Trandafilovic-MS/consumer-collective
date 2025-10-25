@@ -1,0 +1,1 @@
+export { BaseEyebrowdot } from "./BaseEyebrowdot";

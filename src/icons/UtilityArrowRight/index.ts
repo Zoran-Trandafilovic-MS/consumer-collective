@@ -1,0 +1,1 @@
+export { UtilityArrowRight } from "./UtilityArrowRight";

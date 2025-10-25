@@ -1,0 +1,6 @@
+.base-eyebrowdot {
+  background-color: var(--orange-03);
+  border-radius: 6px;
+  height: 12px;
+  width: 12px;
+}
