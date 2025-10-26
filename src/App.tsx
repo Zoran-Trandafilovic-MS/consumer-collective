@@ -1,9 +1,9 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import { ElementMccExplorerPathScreen } from "./screens/ElementMccExplorerPathScreen";
 import { LoadingPersonas } from "./screens/LoadingPersonas";
 import { PersonaCarousel } from "./screens/PersonaCarousel";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <ElementMccExplorerPathScreen />,
