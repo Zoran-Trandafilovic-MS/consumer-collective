@@ -16,7 +16,9 @@ const router = createBrowserRouter([
     path: "/persona-carousel",
     element: <PersonaCarousel />,
   },
-]);
+], {
+  basename: "/consumer-collective",
+});
 
 export const App = () => {
   return <RouterProvider router={router} />;
