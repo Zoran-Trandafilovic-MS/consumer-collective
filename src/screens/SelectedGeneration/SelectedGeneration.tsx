@@ -44,17 +44,14 @@ export const SelectedGeneration = ({ onCardClick }: Props): JSX.Element => {
               <Component className="component-1" property1="frame-5" />
             </div>
 
-            <div className="tertiary" style={{ marginTop: '-12px' }}>
+            <div className="tertiary group cursor-pointer">
               <div className="base-button-tertiary">
                 <div className="text-icon">
                   <div className="button-text">
-                    <div className="button-text-2">Show Personas</div>
-
-                    <img
-                      className="hover-underline"
-                      alt="Hover underline"
-                      src="/img/hover-underline.svg"
-                    />
+                    <div className="button-text-2 relative">
+                      Show Personas
+                      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -73,17 +70,14 @@ export const SelectedGeneration = ({ onCardClick }: Props): JSX.Element => {
               <div className="text-wrapper-2">Feel under-supported</div>
             </div>
 
-            <div className="tertiary" style={{ marginTop: '-12px' }}>
+            <div className="tertiary group cursor-pointer">
               <div className="base-button-tertiary">
                 <div className="text-icon">
                   <div className="button-text">
-                    <div className="button-text-2">Show Personas</div>
-
-                    <img
-                      className="img"
-                      alt="Hover underline"
-                      src="/img/image.svg"
-                    />
+                    <div className="button-text-2 relative">
+                      Show Personas
+                      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
+                    </div>
                   </div>
                 </div>
               </div>
