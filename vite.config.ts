@@ -6,30 +6,19 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [react(), mode === "development" && screenGraphPlugin()],
-  publicDir: "./static",
+  publicDir: "./public",
   base: "./",
   css: {
     postcss: {
       plugins: [tailwind()],
     },
   },
-  optimizeDeps: {
-    entries: ['./src/**/*.{js,jsx,ts,tsx}'],
-    force: false,
-    esbuildOptions: {
-      preserveSymlinks: true
-    }
-  },
   server: {
     fs: {
       strict: false
     },
     watch: {
-      usePolling: true,
-      interval: 100
-    },
-    hmr: {
-      overlay: true
+      usePolling: true
     }
   }
 }));
