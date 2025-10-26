@@ -244,14 +244,6 @@ export const ElementMccExplorerPathScreen = (): JSX.Element => {
         />
 
         <img
-          className={`absolute top-[333px] left-[1281px] w-[50px] h-[50px] transition-opacity ease-in-out ${
-            isTransitioning ? 'opacity-0 duration-500' : !showCountries ? 'opacity-0 delay-[1000ms] duration-500' : 'opacity-100 duration-500'
-          }`}
-          alt="Component"
-          src="/img/component-1-1.svg"
-        />
-
-        <img
           className="absolute top-[934px] right-8 w-[60px] h-[60px]"
           alt="Ai assistant"
           src="/img/ai-assistant.svg"

@@ -40,8 +40,6 @@ export const SelectedGeneration = ({ onCardClick }: Props): JSX.Element => {
           <div className="bottom-wrap">
             <div className="copy-wrap">
               <div className="text-wrapper-2">Feel well-supported</div>
-
-              <Component className="component-1" property1="frame-5" />
             </div>
 
             <div className="tertiary group cursor-pointer">

@@ -120,8 +120,6 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
               </div>
             </div>
           </div>
-
-          <Component className="component-1" property1="frame-5" />
         </div>
 
         <div className="teaser-content">
