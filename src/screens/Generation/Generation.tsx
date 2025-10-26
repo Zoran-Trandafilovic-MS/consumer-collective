@@ -45,7 +45,7 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
               </p>
             </div>
 
-            <div className="flex items-center gap-2 group cursor-pointer">
+            <div className="flex items-center gap-2 group cursor-pointer" style={{ marginTop: '-12px' }}>
               <span className="relative" style={{
                 color: 'var(--gray-07)',
                 fontFamily: 'var(--action-default-font-family)',
@@ -80,7 +80,7 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
               </p>
             </div>
 
-            <div className="flex items-center gap-2 group cursor-pointer">
+            <div className="flex items-center gap-2 group cursor-pointer" style={{ marginTop: '-12px' }}>
               <span className="relative" style={{
                 color: 'var(--gray-07)',
                 fontFamily: 'var(--action-default-font-family)',
@@ -115,7 +115,7 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
               </p>
             </div>
 
-            <div className="flex items-center gap-2 group cursor-pointer">
+            <div className="flex items-center gap-2 group cursor-pointer" style={{ marginTop: '-12px' }}>
               <span className="relative" style={{
                 color: 'var(--gray-07)',
                 fontFamily: 'var(--action-default-font-family)',
@@ -152,7 +152,7 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
               </p>
             </div>
 
-            <div className="flex items-center gap-2 group cursor-pointer">
+            <div className="flex items-center gap-2 group cursor-pointer" style={{ marginTop: '-12px' }}>
               <span className="relative" style={{
                 color: 'var(--gray-07)',
                 fontFamily: 'var(--action-default-font-family)',

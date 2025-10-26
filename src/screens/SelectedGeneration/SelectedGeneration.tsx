@@ -44,7 +44,7 @@ export const SelectedGeneration = ({ onCardClick }: Props): JSX.Element => {
               <Component className="component-1" property1="frame-5" />
             </div>
 
-            <div className="tertiary">
+            <div className="tertiary" style={{ marginTop: '-12px' }}>
               <div className="base-button-tertiary">
                 <div className="text-icon">
                   <div className="button-text">
@@ -73,7 +73,7 @@ export const SelectedGeneration = ({ onCardClick }: Props): JSX.Element => {
               <div className="text-wrapper-2">Feel under-supported</div>
             </div>
 
-            <div className="tertiary">
+            <div className="tertiary" style={{ marginTop: '-12px' }}>
               <div className="base-button-tertiary">
                 <div className="text-icon">
                   <div className="button-text">
