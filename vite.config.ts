@@ -7,7 +7,7 @@ import { defineConfig } from "vite";
 export default defineConfig(({ mode }) => ({
   plugins: [react(), mode === "development" && screenGraphPlugin()],
   publicDir: "./public",
-  base: "/consumer-collective/",
+  base: mode === "production" ? "/consumer-collective/" : "/",
   css: {
     postcss: {
       plugins: [tailwind()],
