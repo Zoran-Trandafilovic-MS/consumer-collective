@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Projects/AnimaPackage-React-15-MC Generation/**)",
+      "Read(//c/Projects/AnimaPackage-React-15-MC Generation-comp/**)",
+      "Read(//c/Projects/Consumer Collective - AI/**)",
+      "Bash(findstr:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

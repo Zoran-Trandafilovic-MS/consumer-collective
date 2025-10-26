@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/ElementMccExplorerPathScreen/ElementMccExplorerPathScreen.tsx",
+      "label": "ElementMccExplorerPathScreen",
+      "routes": [
+        "/*"
+      ],
+      "dataModelId": "394:17813",
+      "isRoot": true
+    }
+  ],
+  "edges": []
+}
