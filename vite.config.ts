@@ -13,4 +13,23 @@ export default defineConfig(({ mode }) => ({
       plugins: [tailwind()],
     },
   },
+  optimizeDeps: {
+    entries: ['./src/**/*.{js,jsx,ts,tsx}'],
+    force: false,
+    esbuildOptions: {
+      preserveSymlinks: true
+    }
+  },
+  server: {
+    fs: {
+      strict: false
+    },
+    watch: {
+      usePolling: true,
+      interval: 100
+    },
+    hmr: {
+      overlay: true
+    }
+  }
 }));
