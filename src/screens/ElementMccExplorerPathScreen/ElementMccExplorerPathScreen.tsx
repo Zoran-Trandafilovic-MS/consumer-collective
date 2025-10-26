@@ -67,12 +67,25 @@ export const ElementMccExplorerPathScreen = (): JSX.Element => {
 
   return (
     <div
-      className="relative w-[1920px] h-[1080px] bg-[#DFDFDF] overflow-hidden"
+      className="relative w-[1920px] h-[1080px] bg-[#ffffff] overflow-hidden"
       data-model-id="394:17813"
     >
-      <div className={`absolute top-[calc(50.00%_-_509px)] left-[calc(50.00%_-_934px)] w-[1868px] h-[1018px] transition-opacity ${
-        showGlobe && !isTransitioning ? 'overflow-visible rounded-[60px]' : 'overflow-visible'
-      } ${showGenerationContent ? 'opacity-0 duration-[1500ms]' : 'opacity-100'}`}>
+      {/* Chair background - always visible underneath */}
+      <div className="absolute top-[calc(50%-509px)] left-[calc(50%-934px)] w-[1868px] h-[1018px] rounded-[60px] overflow-hidden">
+        <img
+          className="absolute top-0 left-0 w-[1868px] h-[1018px]"
+          alt="Rectangle"
+          src="/img/rectangle-986.svg"
+        />
+        <img
+          className="absolute top-0 left-0 w-[1868px] h-[1018px] object-cover"
+          alt="Chair grey"
+          src="/img/chair-grey-1.svg"
+        />
+      </div>
+
+      {/* Universe background - fades out */}
+      <div className={`absolute top-[calc(50.00%_-_509px)] left-[calc(50.00%_-_934px)] w-[1868px] h-[1018px] rounded-[60px] overflow-hidden transition-opacity ${showGenerationContent ? 'opacity-0 duration-[1500ms]' : 'opacity-100'}`}>
         <img
           className="absolute top-[9167px] left-[-2825px] w-[1868px] h-[1018px]"
           alt="Rectangle"

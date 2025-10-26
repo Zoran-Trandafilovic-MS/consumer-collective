@@ -1,0 +1,1 @@
+export { IconFeathericonsSend } from "./IconFeathericonsSend";

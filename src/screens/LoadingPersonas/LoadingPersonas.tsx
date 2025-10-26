@@ -6,10 +6,10 @@ export const LoadingPersonas = (): JSX.Element => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Fade in the loading text
+    // Trigger fade in immediately (no delay)
     const fadeTimer = setTimeout(() => {
       setShowContent(true);
-    }, 300);
+    }, 0);
 
     // Navigate to PersonaCarousel after 2 seconds
     const navTimer = setTimeout(() => {
@@ -23,7 +23,21 @@ export const LoadingPersonas = (): JSX.Element => {
   }, [navigate]);
 
   return (
-    <div className="relative w-[1920px] h-[1080px] bg-[#DFDFDF]">
+    <div className="relative w-[1920px] h-[1080px] bg-[#ffffff]">
+      {/* Background Images */}
+      <div className="absolute top-[calc(50%-509px)] left-[calc(50%-934px)] w-[1868px] h-[1018px] rounded-[60px] overflow-hidden">
+        <img
+          className="absolute top-0 left-0 w-[1868px] h-[1018px]"
+          alt="Rectangle"
+          src="/img/rectangle-986.svg"
+        />
+        <img
+          className="absolute top-0 left-0 w-[1868px] h-[1018px] object-cover"
+          alt="Chair grey"
+          src="/img/chair-grey-1.svg"
+        />
+      </div>
+
       {/* Top Navigation */}
       <div className="flex w-[1802px] items-center justify-between absolute top-[60px] left-[60px]">
         <div className="inline-flex items-center gap-4 relative flex-[0_0_auto]">
