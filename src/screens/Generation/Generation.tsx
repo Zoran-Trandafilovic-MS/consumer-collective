@@ -51,7 +51,7 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
                   <div className="button-text">
                     <div className="button-text-2 relative">
                       Select
-                      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
                     </div>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
                   <div className="button-text">
                     <div className="button-text-2 relative">
                       Select
-                      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
                     </div>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
                   <div className="button-text">
                     <div className="button-text-2 relative">
                       Select
-                      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
                     </div>
                   </div>
                 </div>
@@ -146,7 +146,7 @@ export const Generation = ({ onMillennialsClick }: Props): JSX.Element => {
                   <div className="button-text">
                     <div className="button-text-2 relative">
                       Select
-                      <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
+                      <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#F37338] transition-all duration-300 group-hover:w-full"></span>
                     </div>
                   </div>
                 </div>
