@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Generation } from "../Generation";
 import { SelectedGeneration } from "../SelectedGeneration";
 
 export const ElementMccExplorerPathScreen = (): JSX.Element => {
+  const navigate = useNavigate();
   const [showGlobe, setShowGlobe] = useState(false);
   const [showCountries, setShowCountries] = useState(false);
   const [canadaHovered, setCanadaHovered] = useState(false);
@@ -54,8 +56,13 @@ export const ElementMccExplorerPathScreen = (): JSX.Element => {
   };
 
   const handleSupportCardClick = () => {
-    console.log("Support card clicked - flying out SelectedGeneration");
+    console.log("Support card clicked - navigating to LoadingPersonas");
     setHideSelectedGeneration(true);
+
+    // Navigate to LoadingPersonas after animation completes
+    setTimeout(() => {
+      navigate("/loading-personas");
+    }, 1500);
   };
 
   return (
