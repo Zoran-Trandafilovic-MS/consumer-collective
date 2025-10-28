@@ -5,7 +5,14 @@
       "Read(//c/Projects/AnimaPackage-React-15-MC Generation-comp/**)",
       "Read(//c/Projects/Consumer Collective - AI/**)",
       "Bash(findstr:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Read(//Users/zorantrandafilovic/Downloads/AnimaPackage-React-PersonaCarousel/**)",
+      "Bash(tree:*)",
+      "Read(//Users/zorantrandafilovic/Downloads/AnimaPackage-React-PersonaJose/src/screens/Jose/**)",
+      "Read(//Users/zorantrandafilovic/Downloads/AnimaPackage-React-PersonaJose/static/img/**)",
+      "Read(//Users/zorantrandafilovic/Downloads/AnimaPackage-React-PersonaJose/**)",
+      "Bash(find:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,223 @@
+.element-MCC-intro-screen {
+  background-color: #ffffff;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.element-MCC-intro-screen .frame-9 {
+  border-radius: 60px;
+  height: 1018px;
+  left: calc(50.00% - 934px);
+  overflow: hidden;
+  position: absolute;
+  top: calc(50.00% - 509px);
+  width: 1868px;
+}
+
+.element-MCC-intro-screen .rectangle-7 {
+  height: 1018px;
+  left: -5022px;
+  position: absolute;
+  top: 2011px;
+  width: 1868px;
+}
+
+.element-MCC-intro-screen .chair-grey-2 {
+  aspect-ratio: 1.78;
+  height: 1018px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1868px;
+}
+
+.element-MCC-intro-screen .frame-10 {
+  height: 8px;
+  left: 890px;
+  position: absolute;
+  top: 890px;
+  width: 64px;
+}
+
+.element-MCC-intro-screen .selected-generation-2 {
+  height: 624px;
+  left: calc(50.00% - 5406px);
+  position: absolute;
+  top: calc(50.00% + 1058px);
+  width: 769px;
+}
+
+.element-MCC-intro-screen .heroicons-outline-arrow-left-circle-3 {
+  aspect-ratio: 1 !important;
+  height: 45px !important;
+  left: 1791px !important;
+  position: absolute !important;
+  top: 436px !important;
+  width: 45px !important;
+}
+
+.element-MCC-intro-screen .heroicons-outline-arrow-left-circle-4-instance {
+  aspect-ratio: 1 !important;
+  height: 45px !important;
+  left: 1791px !important;
+  position: absolute !important;
+  top: 492px !important;
+  width: 45px !important;
+}
+
+.element-MCC-intro-screen .element-result-in-total-2 {
+  bottom: 47px;
+  height: 14px;
+  left: calc(50.00% - 68px);
+  position: absolute;
+  width: 135px;
+}
+
+.element-MCC-intro-screen .loading-personas-2 {
+  height: 19px;
+  left: -4176px;
+  position: absolute;
+  top: calc(50.00% + 2588px);
+  width: 176px;
+}
+
+.element-MCC-intro-screen .jessica-2 {
+  display: block;
+  height: 558px;
+  left: calc(50.00% + 290px);
+  position: absolute;
+  top: calc(50.00% - 261px);
+  width: 362px;
+}
+
+.element-MCC-intro-screen .jose-2 {
+  height: 620px;
+  left: calc(50.00% - 460px);
+  position: absolute;
+  top: calc(50.00% - 290px);
+  width: 920px;
+}
+
+.element-MCC-intro-screen .ai-assistant-2 {
+  height: 60px;
+  position: absolute;
+  right: 32px;
+  top: 934px;
+  width: 60px;
+}
+
+.element-MCC-intro-screen .div-3 {
+  background-image: url(../../../static/img/screenshot-2025-08-18-at-17-49-07-1-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  left: 1692px;
+  position: absolute;
+  top: 74px;
+  width: 47px;
+}
+
+.element-MCC-intro-screen .top-nav-2 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 60px;
+  position: absolute;
+  top: 60px;
+  width: 1802px;
+}
+
+.element-MCC-intro-screen .frame-11 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.element-MCC-intro-screen .mastercard-logo-2 {
+  display: unset !important;
+  position: relative !important;
+  width: 83px !important;
+}
+
+.element-MCC-intro-screen .mastercard-logo-3 {
+  flex: unset !important;
+  height: 100% !important;
+  width: unset !important;
+}
+
+.element-MCC-intro-screen .text-wrapper-5 {
+  color: #141413;
+  font-family: "Mark Offc For MC-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.element-MCC-intro-screen .frame-12 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.element-MCC-intro-screen .div-wrapper {
+  align-items: center;
+  background-color: var(--accent-colorsgold-200);
+  border-radius: 999px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 50px;
+  justify-content: center;
+  padding: 13px 18px;
+  position: relative;
+  width: 50px;
+}
+
+.element-MCC-intro-screen .name-2 {
+  color: #141413;
+  font-family: "Mark Offc For MC-Bold", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -1.00px;
+  margin-top: -3.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.element-MCC-intro-screen .utility-menu-wrapper {
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.element-MCC-intro-screen .utility-menu-2 {
+  height: 100%;
+  position: relative;
+}
+
+.element-MCC-intro-screen .vector-stroke-3 {
+  height: 3px;
+  left: calc(50.00% - 13px);
+  position: absolute;
+  top: calc(50.00% - 7px);
+  width: 27px;
+}
+
+.element-MCC-intro-screen .vector-stroke-4 {
+  height: 3px;
+  left: calc(50.00% - 13px);
+  position: absolute;
+  top: calc(50.00% + 5px);
+  width: 27px;
+}

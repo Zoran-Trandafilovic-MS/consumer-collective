@@ -22,15 +22,20 @@ export const ElementMccExplorerPathScreen = (): JSX.Element => {
   ];
 
   useEffect(() => {
-    // Trigger globe animation immediately
-    setShowGlobe(true);
+    // Small delay before starting globe animation to ensure initial render
+    const globeTimer = setTimeout(() => {
+      setShowGlobe(true);
+    }, 100);
 
     // Trigger country labels fade-in after globe animation
-    const timer = setTimeout(() => {
+    const countriesTimer = setTimeout(() => {
       setShowCountries(true);
-    }, 1800); // Start after globe flies in
+    }, 1900); // Start after globe flies in (100ms + 1800ms)
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(globeTimer);
+      clearTimeout(countriesTimer);
+    };
   }, []);
 
   const handleCanadaClick = () => {
